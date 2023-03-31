@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reserva de Canchas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Reserva de Canchas</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Reservar</a></li>
+          <li><a href="#">Mi Cuenta</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="stories">
+            <div class="story">
+              <img src="img/story-1.jpg" alt="Story 1">
+              <span class="user">Usuario 1</span>
+            </div>
+            <div class="story">
+              <img src="img/story-2.jpg" alt="Story 2">
+              <span class="user">Usuario 2</span>
+            </div>
+            <div class="story">
+              <img src="img/story-3.jpg" alt="Story 3">
+              <span class="user">Usuario 3</span>
+            </div>
+            <div class="story">
+              <img src="img/story-4.jpg" alt="Story 4">
+              <span class="user">Usuario 4</span>
+            </div>
+            <div class="story">
+              <img src="img/story-5.jpg" alt="Story 5">
+              <span class="user">Usuario 5</span>
+            </div>
+            <div class="story">
+              <img src="img/story-6.jpg" alt="Story 6">
+              <span class="user">Usuario 6</span>
+            </div>
+            <!-- y así sucesivamente -->
+          </div>
+          
+          
+      <section id="home">
+        <h2>Bienvenidos a Reserva de Canchas</h2>
+        <img src="cancha.jpg" alt="Foto de la cancha de futbol">
+        <button>Reservar Ahora</button>
+      </section>
+      <section id="reserva">
+        <h2>Reservar Cancha</h2>
+        <form>
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha"><br>
+          <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora"><br>
+          <label for="equipo">Tengo los equipos completos:</label>
+          <input type="checkbox" id="equipo" name="equipo" value="tengo"><br>
+          <label for="buscar">Buscar reto:</label>
+          <button id="open-modal">Ver retos disponibles</button>
+<div id="modal">
+  <div id="modal-content">
+    <h2>Retos disponibles</h2>
+    <p>Aquí van los retos disponibles...</p>
+    <button id="close-modal">Cerrar</button>
+  </div>
+</div>
+
+          <input type="checkbox" id="buscar" name="buscar" value="buscar"><br>
+          <button>Reservar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Reserva de Canchas</p>
+    </footer>
+  </body>
+</html>
